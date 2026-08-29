@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────
+# Nerkh — KDE Plasma 6 Plasmoid
+# ─────────────────────────────────────────────
+
+# Build / packages
+*.zip
+*.tar.gz
+dist/
+build/
+
+# KDE / Qt generated files
+.directory
+*.qmlc
+*.jsc
+qmldir
+.cache/
+
+# Qt Creator / CMake (if added later)
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+compile_commands.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Local development / test files
+.local/
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+
+# KDE local packaging artifacts
+*.plasmoid

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="enabledAssets" type="String">
+      <default>USD,EUR,IR_GOLD_18K,IR_COIN_EMAMI,BTC,ETH,USDT</default>
+    </entry>
+
+    <entry name="groupOrder" type="String">
+      <default>fiat,metal,crypto</default>
+    </entry>
+
+    <entry name="refreshInterval" type="Int">
+      <default>5</default>
+      <min>1</min>
+      <max>1440</max>
+    </entry>
+
+    <entry name="autoRefresh" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="language" type="String">
+      <default>auto</default>
+    </entry>
+
+    <entry name="numerals" type="String">
+      <default>auto</default>
+    </entry>
+
+    <entry name="unitScale" type="String">
+      <default>toman</default>
+    </entry>
+
+    <entry name="cryptoBase" type="String">
+      <default>USD</default>
+    </entry>
+
+    <!-- name | symbol | both -->
+    <entry name="labelStyle" type="String">
+      <default>name</default>
+    </entry>
+
+    <entry name="showIcon" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <!-- small | medium | large -->
+    <entry name="iconSize" type="String">
+      <default>small</default>
+    </entry>
+
+    <entry name="fontDelta" type="Int">
+      <default>0</default>
+      <min>-2</min>
+      <max>6</max>
+    </entry>
+
+    <entry name="showChange" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="showDeltaBar" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="showGroupLabels" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <entry name="compactSymbol" type="String">
+      <default>USD</default>
+    </entry>
+  </group>
+
+  <group name="Api">
+    <entry name="apiBaseUrl" type="String">
+      <default></default>
+    </entry>
+
+    <entry name="apiKey" type="String">
+      <default></default>
+    </entry>
+
+    <!-- How the key is sent: auto | bearer | header | query | none -->
+    <entry name="authMethod" type="String">
+      <default>auto</default>
+    </entry>
+  </group>
+</kcfg>
