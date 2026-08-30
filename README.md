@@ -1,195 +1,155 @@
-# Nerkh — نرخ
+<div align="center">
 
-<p align="center">
-  <img src="images/logo.png" width="140" alt="Nerkh Logo">
+<img src="images/logo.png" width="150" alt="Nerkh logo">
+
+# Nerkh &nbsp;·&nbsp; نرخ
+
+### Currency, gold, coin &amp; crypto prices, sitting right on your KDE Plasma&nbsp;6 desktop
+
+<p>
+  <img src="https://img.shields.io/badge/Plasma-6-1d99f3?style=for-the-badge&logo=kde&logoColor=white" alt="Plasma 6">
+  <img src="https://img.shields.io/badge/Qt-6-41cd52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt 6">
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0">
+  <img src="https://img.shields.io/badge/version-1.3-8e44ad?style=for-the-badge" alt="v1.3">
 </p>
 
-<p align="center">
-  <strong>نرخ ارز، طلا و رمزارز، درست روی دسکتاپ KDE</strong>
+<p>
+  <a href="README.md"><b>English</b></a>
+  &nbsp;•&nbsp;
+  <a href="README_FA.md">فارسی</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/keyaruga33/nerkh-widget">GitHub</a>
-  ·
+<p>
+  <a href="https://www.opendesktop.org/p/2369858/"><b>Get it on the KDE Store</b></a>
+  &nbsp;·&nbsp;
   <a href="https://github.com/keyaruga33/nerkh-widget/releases">Releases</a>
-  ·
-  <a href="https://www.opendesktop.org/p/2369858/">KDE Store</a>
-  ·
+  &nbsp;·&nbsp;
   <a href="SUPPORTED_ASSETS.md">Supported Assets</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/keyaruga33/nerkh-widget/issues">Report a Bug</a>
 </p>
 
----
-
-**نرخ (Nerkh)** یک ویجت (Plasmoid) برای **KDE Plasma 6** است که قیمت ارزها، طلا، سکه و رمزارزها را مستقیما روی دسکتاپ یا پنل نمایش می‌دهد.
-
-ایده‌ساده ای داره؛ قیمت‌هایی که مدام لازم داری را بدون باز کردن مرورگر یا برنامه های جداگانه، همیشه جلوی چشم داشته باشی.
-
-میتونی نرخ را روی دسکتاپ قرار بدی و چندین دارایی را هم‌زمان ببینی، یا اون را روی پنل بزاری و فقط قیمت چیزی که برایت مهمه رو سریع چک کنی.
+</div>
 
 ---
 
-## Screenshots
+<img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/nerkh.svg" width="22" align="top"> &nbsp;**Nerkh** (that's Persian for _"rate"_) is a little Plasma 6 widget that keeps the prices you care about — currencies, gold, Iranian coins, crypto — right there on your desktop or panel.
 
-چند تصویر از نرخ در محیط KDE Plasma:
+Here's the whole idea: if you're going to check a number ten times a day, you shouldn't have to open a browser tab or dig through an app to see it. It should just be there.
 
-### Desktop & Panel
+Park it on your **desktop** and watch a whole list at once. Or drop it in your **panel** and keep one price hovering in the corner of your eye. It talks both **Persian and English**, borrows its colors from your system theme, and doesn't bug your CPU when there's nothing new to fetch.
+
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/image.svg" width="26" align="top"> &nbsp;Screenshots
+
+<div align="center">
 
 <table>
   <tr>
-    <td align="center">
-      <img src="images/screenshots/desktop.png" width="420" alt="Nerkh Desktop">
-      <br>
-      <sub>Desktop</sub>
-    </td>
-    <td align="center">
-      <img src="images/screenshots/panel.png" width="420" alt="Nerkh Panel">
-      <br>
-      <sub>Panel</sub>
-    </td>
+    <td align="center"><img src="images/screenshots/desktop.png" width="420" alt="Nerkh on the desktop"><br><sub><b>Desktop</b> — the full list at a glance</sub></td>
+    <td align="center"><img src="images/screenshots/panel.png" width="420" alt="Nerkh on the panel"><br><sub><b>Panel</b> — one price, always handy</sub></td>
   </tr>
 </table>
-
-### Settings
 
 <table>
   <tr>
-    <td align="center">
-      <img src="images/screenshots/configuration_assets.png" width="300" alt="Nerkh Asset Settings">
-      <br>
-      <sub>Assets</sub>
-    </td>
-    <td align="center">
-      <img src="images/screenshots/configuration_data.png" width="300" alt="Nerkh Data Settings">
-      <br>
-      <sub>Data</sub>
-    </td>
-    <td align="center">
-      <img src="images/screenshots/configuration_display.png" width="300" alt="Nerkh Display Settings">
-      <br>
-      <sub>Display</sub>
-    </td>
+    <td align="center"><img src="images/screenshots/configuration_assets.png" width="270" alt="Asset settings"><br><sub>Assets</sub></td>
+    <td align="center"><img src="images/screenshots/configuration_data.png" width="270" alt="Data settings"><br><sub>Data &amp; API</sub></td>
+    <td align="center"><img src="images/screenshots/configuration_display.png" width="270" alt="Display settings"><br><sub>Display</sub></td>
   </tr>
 </table>
 
+</div>
 
----
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/sparkles.svg" width="26" align="top"> &nbsp;What it does
 
-## امکانات
+No account, no API key, no fiddling to get started — it all works the moment you add it.
 
-نرخ در حال حاضر از بیش از**۵۵ دارایی** پشتیبانی میکنه.
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layers.svg" width="20" align="top"> &nbsp;56 assets, sorted into three groups
 
-### ارزها و دارایی‌ها
+Currencies, gold and Iranian coins, and crypto — split across three groups: **Fiat**, **Metals &amp; Coins**, and **Crypto**.
 
-* ارزهای فیات مثل دلار، یورو، پوند، درهم و ...
-* طلا و فلزات
-* سکه‌های رایج
-* رمزارزهای محبوب و استیبل‌کوین‌ها
+| Group | How many | A few of them |
+| ----- | :---: | -------- |
+| Fiat currencies | 27 | USD, EUR, GBP, AED, TRY, CNY, … |
+| Gold, metals &amp; coins | 9 | 18K gold, Bahar Azadi &amp; Emami coins, … |
+| Cryptocurrencies | 20 | BTC, ETH, USDT, plus the usual stablecoins |
 
-فهرست کامل دارایی‌ها، نمادها و نام فارسی و انگلیسی اونا:
+Show only the ones you actually follow, and shuffle them however you like — you can reorder the **assets inside a group** and the **groups themselves**.
 
-**[مشاهده فهرست دارایی‌های پشتیبانی‌شده →](SUPPORTED_ASSETS.md)**
+> <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/link.svg" width="14" align="top"> Want the whole list, with symbols and Persian/English names? → **[Supported Assets](SUPPORTED_ASSETS.md)**
 
-### دسکتاپ یا پنل
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layout.svg" width="20" align="top"> &nbsp;Desktop or panel — your call
 
-نرخ را می‌توانی هر جایی که می‌خواهی قرار بدی.
+Put it wherever it suits you:
 
-**Desktop**
+- **On the desktop**, it stretches out into a full list of everything you've turned on.
+- **In the panel**, it shrinks down to a single price you pick and keeps it right there.
 
-چندین دارایی را هم‌زمان روی دسکتاپ ببین و مشخص کن چه چیزهایی نمایش داده بشه.
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/refresh.svg" width="20" align="top"> &nbsp;Refresh whenever you feel like it
 
-**Panel**
+When Nerkh grabs new prices is entirely up to you:
 
-ویجت را روی پنل قرار بده و قیمت یک دارایی را همیشه دم دست داشته باش.
+- Let it **refresh on its own** every so often — pick anything from **1 to 1440 minutes**.
+- Or **tap to refresh** by hand when you want a fresh number.
+- Or **switch auto-refresh off completely** and only update on demand.
 
-ترتیب نمایش دارایی‌ها نیز قابل تغییره.
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/chart.svg" width="20" align="top"> &nbsp;See today's move, not just the price
 
-### بروزرسانی قیمت
+The current number is nice, but Nerkh can also show you where each asset went today:
 
-برای دریافت قیمت‌های جدید چند انتخاب داری:
+- **How much it changed**, in percent.
+- **Up or down**, colored so you catch it instantly.
+- A little **change bar** when you'd rather glance than read digits.
+- And **group labels**, if a long list needs a bit of tidying.
 
-* بروزرسانی خودکار
-* بروزرسانی دستی
-* تعیین فاصله‌ی بروزرسانی
-* خاموش کردن کامل بروزرسانی خودکار
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/globe.svg" width="20" align="top"> &nbsp;Persian and English, the way they should be
 
-اگر مصرف منابع برات مهمه، می‌توانی بروزرسانی خودکار را خاموش کنی و فقط هر وقت لازم بود قیمت‌ها را بروزرسانی کنی.
+It's bilingual through and through, and it plays by Iranian conventions:
 
-### تغییرات قیمت
+- **Language** — Persian, English, or whatever your system uses.
+- **Digits** — Persian (۱۲۳), Latin (123), or automatic.
+- **Toman or Rial** for local prices.
+- **USD or Toman** as the base for crypto.
+- A right-to-left layout that flips the way it should in Persian.
 
-علاوه بر قیمت فعلی، می‌توانی تغییرات روزانه را هم ببینی:
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/component.svg" width="20" align="top"> &nbsp;Fits right in, then bends to your taste
 
-* درصد تغییر
-* افزایش یا کاهش قیمت
-* نوار بصری تغییرات
+Straight away it picks up your **KDE / Qt theme**, and from there you can tweak plenty:
 
-### فارسی و انگلیسی
+- **Per-asset icons** you can leave on or turn off.
+- **Icon size** — small, medium, or large.
+- **Font size** — small, normal, large, or huge.
+- **Labels** — the asset's name, its symbol, or both together.
 
-نرخ از فارسی و انگلیسی پشتیبانی میکنه و میتونی نحوه نمایش اطلاعات را مطابق سلیقه‌ی خودت تنظیم کنی:
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/api.svg" width="20" align="top"> &nbsp;Free data out of the box, or plug in your own
 
-* فارسی یا انگلیسی
-* اعداد فارسی یا لاتین
-* ریال یا تومان
-* دلار یا تومان برای قیمت رمزارزها
-* نمایش نام یا نماد دارایی
+Nerkh comes with a **free data source** stitched together from a handful of providers, so there's nothing to sign up for and no key to paste in — it just runs.
 
-### ظاهر و شخصی‌سازی
+Got something more specific in mind? Point it at **your own API** instead:
 
-رابط نرخ با ظاهر KDE کاملا هماهنگه و چندین گزینه برای شخصی‌سازی  بیشتر هم داره:
+- Give it a custom **API base URL**.
+- Pick how it **authenticates** — auto, Bearer token, custom header, query parameter, or none at all.
+- Drop in an **API key** if yours needs one.
+- **Test the connection** right there in settings and get a thumbs-up or a clear error on the spot.
 
-* هماهنگی با تم KDE / Qt
-* آیکون اختصاصی برای دارایی‌ها
-* روشن یا خاموش کردن آیکون‌ها
-* تغییر اندازه‌ی فونت
-* تغییر اندازه‌ی آیکون‌ها
-* انتخاب دارایی‌های قابل نمایش
-* مرتب‌سازی دارایی‌ها
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/download.svg" width="26" align="top"> &nbsp;Getting it installed
 
-### API اختصاصی
-نرخ یک API بروز و رایگان گرد اوری شده از منابع مختلف رو به صورت رایگان داخل خودش داره که میتونی بدون هزینه و... از داشتن یک ویجت با قیمت های بروز لذت ببری
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/kde.svg" width="18" align="top"> &nbsp;The easy way — KDE Store
 
-اگر نیاز ویژه تری داری میتونی Api خودت هم تنطیم کنی.
+1. Right-click your panel or desktop and hit **Add or Manage Widgets…**
+2. Go to **Get New…** → **Download New Plasma Widgets**.
+3. Type **Nerkh** in the search box.
+4. Install it, then drag it onto your desktop or panel.
 
-آدرس API را از تنظیمات وارد کن و در صورت نیاز اطلاعات احراز هویت را هم تنظیم کن.
+> <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/link.svg" width="14" align="top"> **[Find Nerkh on the KDE Store →](https://www.opendesktop.org/p/2369858/)**
 
----
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/package.svg" width="18" align="top"> &nbsp;From a release file
 
-# نصب
+1. Grab the latest package off the [Releases](https://github.com/keyaruga33/nerkh-widget/releases) page.
+2. Right-click the panel → **Add or Manage Widgets…** → **Get New…**
+3. Choose **Install From Local File…** and point it at what you just downloaded.
 
-## KDE Store
-
-ساده‌ترین راه نصب نرخ، استفاده از KDE Store است.
-
-1. روی پنل KDE راست‌کلیک کن.
-2. **Add or Manage Widgets** رو انتخاب کن.
-3. روی **Get New** بزن.
-4. **Download New Plasma Widgets** رو باز کن.
-5. `Nerkh` رو جستجو کن.
-6. ویجت را نصب کن.
-
-**[صفحه Nerkh در KDE Store →](https://www.opendesktop.org/p/2369858/)**
-
-بعد از نصب، نرخ در فهرست ویجت‌های Plasma قرار می‌گیره.
-
----
-
-## نصب دستی
-
-اگر می‌خواهی یکی از نسخه‌های منتشرشده را به صورت دستی نصب کنی:
-
-1. از صفحه‌ی [Releases](https://github.com/keyaruga33/nerkh-widget/releases) آخرین نسخه را دانلود کن.
-2. روی پنل راست‌کلیک کن.
-3. **Add or Manage Widgets** رو انتخاب کن.
-4. وارد **Get New** شو.
-5. **Install From Local File** رو انتخاب کن.
-6. فایل دانلودشده را انتخاب کن.
-
-تمام.
-
----
-
-## نصب از سورس
-
-اگر ترجیح می‌دهی آخرین نسخه‌ی موجود در مخزن رو نصب کنی:
+### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/terminal.svg" width="18" align="top"> &nbsp;Straight from source
 
 ```bash
 git clone https://github.com/keyaruga33/nerkh-widget.git
@@ -197,164 +157,102 @@ cd nerkh-widget
 make install
 ```
 
-اگر بعد از نصب ویجت را در لیست ندیدی، یک بار Plasma را دوباره راه‌اندازی کن یا از حساب کاربری خارج و دوباره وارد شو.
+Don't see it show up? Restart Plasma, or just log out and back in.
 
----
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/wrench.svg" width="26" align="top"> &nbsp;Making it yours
 
-# اضافه کردن به دسکتاپ یا پنل
+Right-click the widget and pick **Configure Nerkh**. The settings live on three pages:
 
-بعد از نصب:
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <b><img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layers.svg" width="15" align="top"> Assets</b><br><br>
+      • Pick which assets show up<br>
+      • Reorder them inside a group<br>
+      • Reorder the groups too<br>
+      • Search by name or symbol
+    </td>
+    <td valign="top" width="33%">
+      <b><img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/component.svg" width="15" align="top"> Display</b><br><br>
+      • Language &amp; digits<br>
+      • Toman / Rial · crypto base<br>
+      • Labels, icons &amp; icon size<br>
+      • Font size · change bar · group labels<br>
+      • Which asset sits in the panel
+    </td>
+    <td valign="top" width="33%">
+      <b><img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/api.svg" width="15" align="top"> Data &amp; API</b><br><br>
+      • Auto refresh on or off<br>
+      • Interval (1–1440 min)<br>
+      • Your own API base URL<br>
+      • Auth method &amp; API key<br>
+      • Test the connection
+    </td>
+  </tr>
+</table>
 
-**Right Click → Add or Manage Widgets → Nerkh**
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/cloud.svg" width="26" align="top"> &nbsp;Where the prices come from
 
-ویجت را بگیر و هر جایی که می‌خوای قرار بده.
+The numbers come from a free source that pulls together a few different providers. For everyday use there's **nothing to set up** — no sign-up, no key. And if you run your own endpoint, you can wire it in from the Data &amp; API page.
 
-### روی دسکتاپ
+> The prices are only as fresh as that source, so now and then they'll sit a hair off the live market.
 
-در حالت Desktop، نرخ به شکل کامل نمایش داده می‌شود و می‌توانی چندین دارایی را هم‌زمان ببینی.
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/performance.svg" width="26" align="top"> &nbsp;Easy on your machine
 
-### روی پنل
+A tiny widget has no business grinding away in the background. Nerkh only reaches out on the schedule you set — or never, if you flip auto-refresh off and update by hand. The rest of the time it just sits quietly and leaves your CPU alone.
 
-در حالت Panel، ویجت جمع‌وجور می‌شود و قیمت دارایی انتخاب‌شده را در پنل نشان میده.
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/cpu.svg" width="26" align="top"> &nbsp;What you'll need
 
----
+- **KDE Plasma 6**
+- **Qt 6**
 
-# تنظیمات
+> Nerkh is made for KDE Plasma, plain and simple. It isn't built for GNOME, XFCE, Cinnamon, or the other non-KDE desktops.
 
-برای شخصی‌سازی نرخ، روی ویجت راست‌کلیک کن و:
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/roadmap.svg" width="26" align="top"> &nbsp;What's next
 
-**Configure Nerkh**
+Nerkh isn't done growing. On the list:
 
-را انتخاب کن.
+- More assets
+- Better data sources
+- More ways to customize the look
+- A nicer panel mode
+- More performance tuning
+- More room to play with the API
 
-از این بخش می‌توانی موارد زیر را تغییر بدهی:
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/contributing.svg" width="26" align="top"> &nbsp;Pitching in
 
-* دارایی‌های قابل نمایش
-* ترتیب دارایی‌ها
-* زبان
-* نوع اعداد
-* ریال یا تومان
-* دلار یا تومان برای رمزارزها
-* اندازه‌ی فونت
-* اندازه‌ی آیکون
-* نمایش یا عدم نمایش آیکون
-* فاصله‌ی بروزرسانی
-* بروزرسانی خودکار
-* API اختصاصی
-* احراز هویت API
+Spotted a bug, got an idea, wish it did one more thing? Bring it on.
 
----
+- <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/bug.svg" width="14" align="top"> **[Open an issue](https://github.com/keyaruga33/nerkh-widget/issues)** to report a bug or ask for a feature.
+- <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/pull-request.svg" width="14" align="top"> Or fork it and send a **pull request** if you want to get your hands in the code.
 
-# دارایی‌های پشتیبانی‌شده
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/license.svg" width="26" align="top"> &nbsp;License
 
-در حال حاضر نرخ **۵۵ دارایی** دارد:
+Nerkh is free and open source, under the **[GPL-3.0](LICENSE)** license.
 
-| دسته             |  تعداد |
-| ---------------- | -----: |
-| ارزهای فیات      |     ۲۶ |
-| طلا، فلزات و سکه |      ۹ |
-| رمزارزها         |     ۲۰ |
-| **مجموع**        | **۵۵** |
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/heart.svg" width="26" align="top"> &nbsp;If you like it
 
-فهرست کامل:
+If Nerkh earns a spot on your desktop, a quick **⭐ star** on GitHub means a lot and keeps me going.
 
-**[مشاهده‌ی همه‌ی دارایی‌ها →](SUPPORTED_ASSETS.md)**
+And if you feel like chipping in for the work, you can always buy me a coffee:
 
----
+> <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/coffee.svg" width="15" align="top"> **[Buy me a coffee →](https://www.coffeete.ir/keyaruga333)**
 
-# نیازمندی‌ها
+## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/link.svg" width="26" align="top"> &nbsp;Links
 
-نرخ مخصوص **KDE Plasma 6** ساخته شده است.
+| | |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/github.svg" width="15" align="top"> GitHub | https://github.com/keyaruga33/nerkh-widget |
+| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/kde.svg" width="15" align="top"> KDE Store | https://www.opendesktop.org/p/2369858/ |
+| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/release.svg" width="15" align="top"> Releases | https://github.com/keyaruga33/nerkh-widget/releases |
+| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/issue.svg" width="15" align="top"> Issues | https://github.com/keyaruga33/nerkh-widget/issues |
+| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layers.svg" width="15" align="top"> Supported Assets | [SUPPORTED_ASSETS.md](SUPPORTED_ASSETS.md) |
 
-* KDE Plasma 6
-* Qt 6
-* Plasma Widgets / Plasmoid
+<div align="center">
 
-> نرخ برای GNOME، XFCE، Cinnamon یا سایر محیط‌های دسکتاپ غیر KDE ساخته نشده است.
+<br>
 
----
+<img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/plasma.svg" width="20" align="top"> &nbsp;**Built for KDE Plasma** &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/nerkh.svg" width="18" align="top"> &nbsp;_With Nerkh, the rates are always right in front of you._
 
-# قیمت‌ها از کجا می‌آیند؟
+</div>
 
-نرخ برای دریافت قیمت‌ها از منابع مختلف داده استفاده می‌کند.
-
-برای استفاده‌ی معمول، نیازی به ساخت حساب، خرید اشتراک یا گرفتن `API_KEY` نداری.
-
-اگر API اختصاصی داری، می‌توانی اون رو از تنظیمات معرفی کنی.
-
-> قیمت‌ها به منبع داده وابسته هستند و ممکن است با قیمت لحظه‌ای بازار تفاوت ریزی داشته باشند.
-
----
-
-# مصرف منابع
-
-یکی از چیزهایی که هنگام ساخت نرخ برام مهم بود این بود که یک ویجت ساده، بی‌دلیل در پس‌زمینه مشغول کار نباشه.
-
-فاصله‌ی بروزرسانی قابل تنظیم هست و حتی می‌توانی بروزرسانی خودکار را کاملا خاموش کنی.
-
-در این حالت، دریافت اطلاعات فقط زمانی انجام می‌شود که خودت درخواست بروزرسانی بدی.
-
----
-
-# مشارکت
-
-اگر باگی پیدا کردی، ایده‌ای برای بهتر شدن نرخ داری یا دوست داری قابلیت جدیدی به آن اضافه بشه، خوشحال می‌شوم مطرحش کنی.
-
-می‌توانی از طریق GitHub یک Issue باز کنی یا اگر خودت دست به کدی، پروژه را Fork کنی و Pull Request بفرستی.
-
-**[گزارش مشکل یا پیشنهاد قابلیت →](https://github.com/keyaruga33/nerkh-widget/issues)**
-
----
-
-# مسیر توسعه
-
-نرخ هنوز جای بهتر شدن دارد و احتمالا در نسخه‌های بعدی قابلیت‌های جدیدی بهش اضافه میشه.
-
-چند موردی که دوست دارم در ادامه روشون کار کنم:
-
-* اضافه کردن دارایی‌های بیشتر
-* بهتر کردن منابع داده
-* شخصی‌سازی بیشتر رابط کاربری
-* بهتر کردن حالت Panel
-* بهینه‌سازی بیشتر
-* امکانات بیشتر برای API
-
----
-
-# لایسنس
-
-نرخ یک پروژه‌ی متن‌باز و رایگان است و تحت **GPL-3.0** منتشر شده است.
-
-برای جزئیات کامل، فایل [LICENSE](LICENSE) را ببین.
-
----
-
-# اگر برات مفید بود...
-
-اگر از نرخ استفاده می‌کنی و به دردت خورده، یک **Star** روی GitHub بزن.
-
-شاید کار کوچکی به نظر برسه، ولی واقعا کمک بزرگیه و باعث میشه با انگیزه‌ی بیشتری روی پروژه کار کنم.
-
-اگر هم دوست داشتی از توسعه‌ی پروژه حمایت مالی کنی، می‌تونی یک قهوه مهمونم کنی:
-
-**[☕ Buy me a coffee](https://www.coffeete.ir/keyaruga333)**
-
----
-
-## لینک‌ها
-
-* **GitHub:** https://github.com/keyaruga33/nerkh-widget
-* **KDE Store:** https://www.opendesktop.org/p/2369858/
-* **Releases:** https://github.com/keyaruga33/nerkh-widget/releases
-* **Issues:** https://github.com/keyaruga33/nerkh-widget/issues
-* **Supported Assets:** [SUPPORTED_ASSETS.md](SUPPORTED_ASSETS.md)
-
----
-
-<p align="center">
-  ساخته شده برای KDE Plasma
-</p>
-
-<p align="center">
-  <b>با نرخ، نرخ‌ها همیشه جلوی چشمته.</b>
-</p>
